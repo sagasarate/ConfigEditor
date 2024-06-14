@@ -3,7 +3,7 @@
 
 数据为json格式，另有用于描述数据结构和编辑器配置和xlsx转换的数据，项目提供了一些测试用的数据，分别位于GameData和Editor两个目录，这两个目录可以在编辑器界面右上角齿轮按钮打开的界面设置，缺省为项目目录中的GameData和Editor
 
-编辑器的文件系统支持WebFS(https://github.com/sagasarate/WebFS)的在线模式，和Electron的本地模式。会根据运行时是否存在Electron自动选择。
+编辑器的文件系统支持WebFS (https://github.com/sagasarate/WebFS) 的在线模式，和Electron的本地模式。会根据运行时是否存在Electron自动选择。
 
 在线模式需要先部署WebFS，然后修改src/FileSystem/FileSystem_Web.ts中的常量HOST_ADDRESS指向你部署的WebFS的URL。
 
