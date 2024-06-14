@@ -1,0 +1,2 @@
+# ConfigEditor
+基于Laya开发的通用型Json配置数据编辑器
