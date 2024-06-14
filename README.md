@@ -8,3 +8,5 @@
 在线模式需要先部署WebFS，然后修改src/FileSystem/FileSystem_Web.ts中的常量HOST_ADDRESS指向你部署的WebFS的URL。
 
 本地模式依赖Electron，你可以安装Electron后在项目目录运行npm start以调试模式运行，也可以进行打包成发布版本运行。
+
+UI部分使用FGUI实现，UI项目位于ConfigEditorUI目录中
