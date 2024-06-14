@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="22,22" extention="Button" bgColorEnabled="true" bgColor="#333333">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n5_wwwc" name="bg" xy="0,0" size="22,22" type="rect" lineSize="2" lineColor="#ffcccccc" fillColor="#00333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n3_wwwc" name="n3" xy="11,10" pivot="0.5,0.5" anchor="true" size="16,16" rotation="90" type="regular_polygon" lineSize="0" fillColor="#ffcccccc" sides="3">
+      <gearDisplay controller="button" pages="2,4"/>
+    </graph>
+    <graph id="n4_wwwc" name="n4" xy="11,12" pivot="0.5,0.5" anchor="true" size="16,16" rotation="-90" type="regular_polygon" lineSize="0" fillColor="#ffcccccc" sides="3">
+      <gearDisplay controller="button" pages="3,5"/>
+    </graph>
+  </displayList>
+  <Button mode="Check"/>
+</component>

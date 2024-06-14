@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300">
+  <displayList>
+    <graph id="n0_yaad" name="n0" xy="0,0" size="300,300" type="rect" lineSize="0" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n1_yaad" name="pdProperty" src="tu7jo" fileName="Componets/Components/PropertyGris/PropertyGrid.xml" xy="0,0" size="300,300">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

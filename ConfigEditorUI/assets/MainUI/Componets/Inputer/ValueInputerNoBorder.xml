@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,22">
+  <displayList>
+    <text id="n1_ia48" name="txValue" xy="0,0" size="100,22" fontSize="14" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="0" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <customProperty target="txValue" propertyId="0"/>
+</component>

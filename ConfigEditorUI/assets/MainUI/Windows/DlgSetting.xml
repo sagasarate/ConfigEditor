@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,120">
+  <displayList>
+    <component id="n0_i9g7" name="frame" src="f0yv13" fileName="Componets/Components/WindowFrame.xml" xy="0,-1" size="400,120">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="设置"/>
+    </component>
+    <text id="n1_i9g7" name="n1" xy="15,45" size="88,22" group="n5_i9g7" fontSize="14" color="#cccccc" text="配置文件路径"/>
+    <component id="n2_i9g7" name="txConfigDataPath" src="i9g7q8d" fileName="Componets/Inputer/ValueInputer.xml" xy="110,45" size="250,22" group="n5_i9g7">
+      <property target="txValue" propertyId="0" value=""/>
+    </component>
+    <component id="n4_i9g7" name="btnSelectConfigDataPath" src="tu7jp" fileName="Componets/Buttons/ButtonNormal.xml" xy="365,45" size="22,22" group="n5_i9g7">
+      <Button title="…"/>
+    </component>
+    <group id="n5_i9g7" name="n5" xy="15,45" size="372,22"/>
+    <text id="n6_i9g7" name="n6" xy="15,75" size="88,22" group="n9_i9g7" fontSize="14" color="#cccccc" text="扩展文件路径"/>
+    <component id="n7_i9g7" name="txEditorDataPath" src="i9g7q8d" fileName="Componets/Inputer/ValueInputer.xml" xy="110,75" size="250,22" group="n9_i9g7">
+      <property target="txValue" propertyId="0" value=""/>
+    </component>
+    <component id="n8_i9g7" name="btnSelectEditorDataPath" src="tu7jp" fileName="Componets/Buttons/ButtonNormal.xml" xy="365,75" size="22,22" group="n9_i9g7">
+      <Button title="…"/>
+    </component>
+    <group id="n9_i9g7" name="n9" xy="15,75" size="372,22"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,22">
+  <displayList>
+    <graph id="n0_ia48" name="bg" xy="0,0" size="100,22" type="rect" lineColor="#ff666666" fillColor="#00444444">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_ia48" name="txValue" xy="2,0" size="96,22" fontSize="14" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="0" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <customProperty target="txValue" propertyId="0"/>
+</component>

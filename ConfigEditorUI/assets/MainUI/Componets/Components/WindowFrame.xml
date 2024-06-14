@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" extention="Label" initName="frame">
+  <displayList>
+    <graph id="n2_f0yv" name="dragArea" xy="0,0" size="300,24" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_f0yv" name="contentArea" xy="0,24" size="300,276" type="rect" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0_f0yv" name="title" xy="0,0" size="300,24" fontSize="16" color="#ffff00" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="标题">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n4_ejsu" name="closeButton" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="276,0" size="24,24">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://hmcdt1owtmxiq36"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,22" extention="Button" bgColorEnabled="true" bgColor="#333333">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n0_pv4c" name="BG" xy="0,0" size="101,22" touchable="false" type="rect" fillColor="#ff444444">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_pv4c" name="SelectMark" xy="0,0" size="101,22" touchable="false" type="rect" lineColor="#ffcccccc" fillColor="#00cccccc">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_pv4c" name="title" xy="0,0" size="100,22" fontSize="14" color="#cccccc" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="标题">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+</component>

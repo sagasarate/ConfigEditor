@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="1"/>
+  <displayList>
+    <graph id="n4_kkfz" name="n4" xy="2,2" size="18,18" type="polygon" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc" points="0,0,2,0,2,16,16,16,16,2,2,2,2,0,18,0,18,18,0,18">
+      <gearColor controller="button" pages="0,1,2,3,4,5" values="#cccccc|#cccccc|#cccccc|#cccccc|#666666|#666666"/>
+    </graph>
+    <text id="n3_kkfz" name="title" xy="22,2" size="32,22" fontSize="14" color="#ff7f00" align="center" vAlign="middle" singleLine="true" text="选项">
+      <gearColor controller="button" pages="1,3,4,5" values="#ff7f00,#000000|#ff7f00,#000000|#666666,#000000|#666666,#000000" default="#cccccc,#000000"/>
+    </text>
+    <graph id="n7_x3og" name="n7" xy="11,11" pivot="0.5,0.5" anchor="true" size="14,14" rotation="45" type="polygon" lineSize="0" fillColor="#ffcccccc" points="0,8,0,6,6,6,6,0,8,0,8,6,14,6,14,8,8,8,8,14,6,14,6,8">
+      <gearDisplay controller="button" pages="1,3,5"/>
+      <gearColor controller="button" default="#cccccc"/>
+    </graph>
+  </displayList>
+  <Button mode="Check"/>
+  <relation target="n3_kkfz" sidePair="rightext-right"/>
+</component>

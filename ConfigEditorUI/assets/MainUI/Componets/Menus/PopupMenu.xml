@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,150">
+  <displayList>
+    <graph id="n2_nvkn" name="n2" xy="0,0" size="250,150" type="rect" lineColor="#ff666666" fillColor="#ff222222">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_g17v" name="list" xy="1,1" size="248,148" defaultItem="ui://hmcdt1owg17v6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+  </displayList>
+  <relation target="n1_g17v" sidePair="width-width,height-height"/>
+</component>

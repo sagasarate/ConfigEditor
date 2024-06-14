@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,600" bgColorEnabled="true" bgColor="#333333">
+  <displayList>
+    <list id="n2_tu7j" name="tvPropertys" xy="0,0" size="300,540" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://hmcdt1owffhcq6v," defaultItem="ui://hmcdt1owtu7jq" autoClearItems="true" treeView="true" indent="22" clickToExpand="0">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n3_tu7j" sidePair="bottomext-top"/>
+      <item level="0"/>
+      <item level="0"/>
+      <item level="0"/>
+    </list>
+    <graph id="n5_tu7j" name="n5" xy="0,540" size="300,60" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <component id="n3_tu7j" name="tvDescription" src="pv4cd" fileName="Componets/Components/TextView.xml" xy="0,540" size="300,60">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n6_c77b" name="edEditor" src="c77bs" fileName="Componets/Components/EditBox.xml" xy="36,161" visible="false"/>
+    <component id="n7_c77b" name="cbEditor" src="c77by" fileName="Componets/ComboBoxs/ComboBox.xml" xy="24,346" visible="false">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400" extention="Label" initName="frame">
+  <displayList>
+    <component id="n7_f0yv" name="frame" src="uwrb14" fileName="Componets/WindowFrameNoClose.xml" xy="0,0" size="300,400">
+      <Label title="提示"/>
+    </component>
+    <component id="n4_f0yv" name="btnOk" src="tu7jp" fileName="Componets/NormalButton.xml" xy="46,357" size="80,30">
+      <Button title="确认"/>
+    </component>
+    <component id="n5_f0yv" name="btnCancel" src="tu7jp" fileName="Componets/NormalButton.xml" xy="173,357" size="80,30">
+      <Button title="放弃"/>
+    </component>
+    <component id="n6_f0yv" name="tvContent" src="pv4cd" fileName="Componets/TextView.xml" xy="5,35" size="290,300"/>
+  </displayList>
+</component>

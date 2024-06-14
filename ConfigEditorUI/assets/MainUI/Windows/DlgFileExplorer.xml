@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,600">
+  <displayList>
+    <component id="n0_a7z1" name="frame" src="f0yv13" fileName="Componets/Components/WindowFrame.xml" xy="0,0" size="1000,600">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="文件浏览"/>
+    </component>
+    <component id="n4_a7z1" name="spHSplitter" src="e8391o" fileName="Componets/Components/WinSplitter.xml" xy="365,45" size="5,540" customData="horizontal"/>
+    <graph id="n1_a7z1" name="n1" xy="15,45" size="350,540" group="n5_a7z1" type="rect" lineSize="2" fillColor="#ff333333">
+      <relation target="n5_a7z1" sidePair="width-width"/>
+    </graph>
+    <list id="n10_a7z1" name="tvFolders" xy="20,50" size="340,530" group="n5_a7z1" overflow="scroll" scrollBarFlags="128" defaultItem="ui://hmcdt1owth2em" autoClearItems="true" treeView="true" indent="15" clickToExpand="0">
+      <relation target="n5_a7z1" sidePair="width-width"/>
+      <item level="0"/>
+      <item level="0"/>
+      <item level="0"/>
+    </list>
+    <group id="n5_a7z1" name="gpLeft" xy="15,45" size="350,540" advanced="true">
+      <relation target="n4_a7z1" sidePair="rightext-left"/>
+    </group>
+    <graph id="n2_a7z1" name="n2" xy="370,45" size="615,500" group="n6_a7z1" type="rect" lineSize="2" fillColor="#ff333333">
+      <relation target="n6_a7z1" sidePair="width-width"/>
+    </graph>
+    <component id="n8_a7z1" name="lvFiles" src="wujyq7p" fileName="Componets/Components/ListView/ListView.xml" xy="375,50" size="605,490" group="n6_a7z1">
+      <relation target="n6_a7z1" sidePair="width-width"/>
+    </component>
+    <group id="n6_a7z1" name="gpRight" xy="370,45" size="615,500" advanced="true">
+      <relation target="n4_a7z1" sidePair="leftext-right"/>
+    </group>
+    <list id="n17_n26w" name="lvOperateButtons" xy="377,555" size="605,22" layout="row" selectionMode="none" defaultItem="ui://hmcdt1owtu7jp" align="right">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

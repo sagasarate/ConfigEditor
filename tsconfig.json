@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es2020",
+    "strict": false,
+    "strictNullChecks": false,
+    "noEmitHelpers": true,
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+
+  },
+  "external": [ "esbuild" ],
+  "include": [ "./assets", "./src", "./node_modules", "./engine" ],
+  "exclude": [
+    "./forge.config.js",
+    "./node_modules/@electron",
+    "./node_modules/@electron-forge",
+    "./node_modules/agent-base",
+    "./node_modules/ip-address",
+    "./node_modules/pe-library",
+    "./node_modules/resedit",
+    "./node_modules/rfdc",
+    "./node_modules/sumchecker"
+  ]
+}
+

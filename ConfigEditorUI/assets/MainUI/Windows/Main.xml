@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" extention="Label" initName="frame" bgColorEnabled="true" bgColor="#333333">
+  <displayList>
+    <component id="n10_g17v" name="MenuView" src="nvknq2l" fileName="Componets/Views/MainMenuView.xml" xy="0,0" size="1280,24" group="n4_fblu">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <group id="n4_fblu" name="Menu" xy="0,0" size="1280,24"/>
+    <component id="n11_pv4c" name="spHSplitter" src="e8391o" fileName="Componets/Components/WinSplitter.xml" xy="900,24" size="5,696" customData="horizontal">
+      <relation target="" sidePair="height-height,right-right"/>
+    </component>
+    <component id="n23_th2e" name="ConfigItemView" src="yaadq7l" fileName="Componets/Views/ConfigItemView.xml" xy="0,24" size="300,506" group="n14_pv4c">
+      <relation target="n14_pv4c" sidePair="height-height"/>
+      <relation target="n24_th2e" sidePair="rightext-left"/>
+    </component>
+    <component id="n24_th2e" name="spLTSplitter" src="e8391o" fileName="Componets/Components/WinSplitter.xml" xy="300,24" size="5,506" group="n14_pv4c" customData="horizontal">
+      <relation target="n14_pv4c" sidePair="height-height"/>
+    </component>
+    <component id="n22_pv4c" name="ConfigListView" src="yaadq7m" fileName="Componets/Views/ConfigListView.xml" xy="305,24" size="595,506" group="n14_pv4c">
+      <relation target="n14_pv4c" sidePair="height-height,rightext-right"/>
+      <relation target="n24_th2e" sidePair="leftext-right"/>
+    </component>
+    <group id="n14_pv4c" name="gpMid" xy="0,24" size="900,506" group="n26_e839" advanced="true">
+      <relation target="n12_pv4c" sidePair="bottomext-top"/>
+      <relation target="n26_e839" sidePair="width-width"/>
+    </group>
+    <component id="n12_pv4c" name="spVSplitter" src="e8391o" fileName="Componets/Components/WinSplitter.xml" xy="0,530" size="900,5" group="n26_e839" customData="vertical">
+      <relation target="n26_e839" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n25_m39r" name="LogView" src="yaadq7n" fileName="Componets/Views/LogView.xml" xy="0,535" size="900,185" group="n16_pv4c">
+      <relation target="n16_pv4c" sidePair="width-width,height-height"/>
+    </component>
+    <group id="n16_pv4c" name="gpBottom" xy="0,535" size="900,185" group="n26_e839" advanced="true">
+      <relation target="n12_pv4c" sidePair="topext-bottom"/>
+      <relation target="n26_e839" sidePair="width-width,bottomext-bottom"/>
+    </group>
+    <group id="n26_e839" name="gpLeft" xy="0,24" size="900,696" advanced="true">
+      <relation target="" sidePair="height-height"/>
+      <relation target="n11_pv4c" sidePair="rightext-left"/>
+    </group>
+    <component id="n21_pv4c" name="ConfigPropertyView" src="yaadq7o" fileName="Componets/Views/PropertyView.xml" xy="905,24" size="375,696" group="n18_pv4c">
+      <relation target="n18_pv4c" sidePair="width-width,height-height"/>
+    </component>
+    <group id="n18_pv4c" name="gpRight" xy="905,24" size="375,696" advanced="true">
+      <relation target="" sidePair="height-height,rightext-right"/>
+      <relation target="n11_pv4c" sidePair="leftext-right"/>
+    </group>
+  </displayList>
+</component>

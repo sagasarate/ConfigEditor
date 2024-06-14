@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="17,200" extention="ScrollBar">
+  <displayList>
+    <graph id="n5_skq7" name="bg" xy="0,0" size="17,200" type="rect" fillColor="#ff222222">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n1_pv4c" name="bar" xy="0,20" size="17,160" fillColor="#ff222222">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_pv4c" name="arrow1" src="pv4ce" fileName="Componets/ScrollBar/VScrollBar_arrow1.xml" xy="0,0">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n3_pv4c" name="arrow2" src="pv4cf" fileName="Componets/ScrollBar/VScrollBar_arrow2.xml" xy="0,180">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n4_pv4c" name="grip" src="pv4cg" fileName="Componets/ScrollBar/VScrollBar_grip.xml" xy="0,20">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+  <ScrollBar/>
+</component>

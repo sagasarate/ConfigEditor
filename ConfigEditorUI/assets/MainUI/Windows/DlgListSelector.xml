@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400" extention="Label" initName="frame">
+  <displayList>
+    <component id="n7_f0yv" name="frame" src="f0yv13" fileName="Componets/WindowFrame.xml" xy="0,0" size="300,400"/>
+    <component id="n4_f0yv" name="btnOk" src="tu7jp" fileName="Componets/NormalButton.xml" xy="110,357" size="80,30"/>
+    <list id="n6_f0yv" name="lvContent" xy="5,35" size="290,300" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://hmcdt1owwj68q2g," defaultItem="ui://hmcdt1owwj68q2f" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

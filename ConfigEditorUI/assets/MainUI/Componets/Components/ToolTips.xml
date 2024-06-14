@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,42" extention="Label">
+  <displayList>
+    <graph id="n1_ejsu" name="n1" xy="0,0" size="340,42" type="rect" lineSize="0" fillColor="#ff222222">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0_ejsu" name="title" xy="0,0" size="340,42" restrictSize="0,350,0,0" fontSize="14" color="#cccccc" autoClearText="true" text="测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容"/>
+  </displayList>
+  <relation target="n0_ejsu" sidePair="width-width,height-height"/>
+</component>

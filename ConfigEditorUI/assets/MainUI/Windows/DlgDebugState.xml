@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="253,22">
+  <displayList>
+    <graph id="n1_1291q" name="gpDrag" xy="0,0" size="253,22" type="rect" lineSize="0" fillColor="#ff222222">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_1291q" name="btnExpand" src="1291q29" fileName="Componets/Buttons/ExpandButton2.xml" xy="231,0">
+      <relation target="" sidePair="right-right"/>
+      <Button checked="true"/>
+    </component>
+  </displayList>
+</component>

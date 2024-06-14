@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,96" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n4_mpst" name="bg" xy="0,0" size="150,96" type="rect" lineSize="0" fillColor="#ffff9933">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_mpst" name="title" xy="26,0" size="122,24" fontSize="16" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#ffffff" singleLine="true" autoClearText="true" text="节点">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <graph id="n9_k3do" name="Dragger" xy="22,0" size="128,24" type="rect" lineSize="2" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n7_k3do" name="DropPoint" xy="0,0" size="24,24" type="rect" lineSize="2" fillColor="#ffffff00"/>
+    <graph id="n10_k3do" name="n10" xy="0,72" size="150,24" type="rect" lineSize="2" fillColor="#ff0099ff">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <text id="n11_k3do" name="txFlow" xy="0,72" size="150,24" fontSize="16" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" singleLine="true" autoClearText="true" text="随机">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </text>
+    <text id="n12_rr2j" name="txContent" xy="0,24" size="150,48" fontSize="16" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" autoClearText="true" text="内容"/>
+    <graph id="n6_mpst" name="n6" xy="0,0" size="150,96" type="rect" lineSize="3" fillColor="#00ffff00">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

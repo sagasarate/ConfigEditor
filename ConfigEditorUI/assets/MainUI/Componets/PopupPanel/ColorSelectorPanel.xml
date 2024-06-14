@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="414,362" bgColorEnabled="true" bgColor="#333333">
+  <displayList>
+    <graph id="n7_cjeo" name="bg" xy="0,0" size="414,362" type="rect" lineColor="#ff666666" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4_cjeo" name="ghColor" xy="15,14" size="50,22" group="n8_nhpr" type="rect" fillColor="#ff0000ff"/>
+    <graph id="n0_cjeo" name="n0" xy="70,14" size="60,22" group="n13_nhpr" type="rect" fillColor="#ff444444"/>
+    <text id="n1_cjeo" name="txColor" xy="72,14" size="56,22" group="n13_nhpr" fontSize="14" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="#FFFFFF" input="true"/>
+    <group id="n13_nhpr" name="n13" xy="70,14" size="60,22" group="n8_nhpr"/>
+    <text id="n12_nhpr" name="n12" xy="170,14" size="60,22" group="n8_nhpr" fontSize="14" color="#cccccc" text="不透明度"/>
+    <graph id="n14_nhpr" name="n14" xy="235,14" size="30,22" group="n16_nhpr" type="rect" fillColor="#ff444444"/>
+    <text id="n15_nhpr" name="txOpaque" xy="237,14" size="26,22" group="n16_nhpr" fontSize="14" color="#cccccc" align="right" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="100" input="true"/>
+    <group id="n16_nhpr" name="n16" xy="235,14" size="30,22" group="n8_nhpr"/>
+    <text id="n17_nhpr" name="n17" xy="267,14" size="11,22" group="n8_nhpr" fontSize="14" color="#cccccc" text="%"/>
+    <loader id="n6_cjeo" name="n6" xy="377,14" size="22,22" group="n8_nhpr" tooltips="底部色块右击可自定义颜色" url="ui://hmcdt1owi9g7q8o" fill="scale"/>
+    <group id="n8_nhpr" name="n8" xy="15,14" size="384,22"/>
+    <list id="n5_cjeo" name="lvColorList1" xy="15,44" size="64,256" layout="flow_vt" defaultItem="ui://hmcdt1owi9g7q8p" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n9_nhpr" name="lvColorList2" xy="111,44" size="256,256" layout="flow_vt" defaultItem="ui://hmcdt1owi9g7q8p" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n10_nhpr" name="lvColorList3" xy="383,44" size="16,256" layout="flow_vt" defaultItem="ui://hmcdt1owi9g7q8p" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n11_nhpr" name="lvColorList4" xy="15,316" size="384,32" layout="flow_hz" defaultItem="ui://hmcdt1owi9g7q8p" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

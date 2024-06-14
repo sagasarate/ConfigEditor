@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,82">
+  <displayList>
+    <graph id="n0_ia48" name="bg" xy="0,0" size="200,82" type="rect" fillColor="#ff444444">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_ia48" name="txValue" xy="2,2" size="196,78" fontSize="14" color="#cccccc" autoSize="none" autoClearText="true" text="Name" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n2_ia48" name="btnEdit" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="176,57">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://hmcdt1owi9g7q8c"/>
+    </component>
+  </displayList>
+</component>

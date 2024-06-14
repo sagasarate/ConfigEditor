@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,200" extention="ScrollBar">
+  <displayList>
+    <graph id="n1_pv4c" name="bar" xy="0,0" size="10,200" type="rect" fillColor="#ff222222">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n4_pv4c" name="grip" src="pv4cg" fileName="Componets/ScrollBar/VScrollBar_grip.xml" xy="0,0" size="10,20">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+  <ScrollBar/>
+</component>

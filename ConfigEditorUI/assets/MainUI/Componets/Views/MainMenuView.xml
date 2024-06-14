@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,23" bgColorEnabled="true" bgColor="#333333">
+  <displayList>
+    <graph id="n2_nvkn" name="n2" xy="0,0" size="500,23" type="rect" lineSize="0" fillColor="#ff222222">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_nvkn" name="n1" xy="0,23" size="500,1" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <component id="n3_i9g7" name="btnSave" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="5,0" group="n13_i9g7" tooltips="保存">
+      <Button icon="ui://hmcdt1owi9g7q8g"/>
+    </component>
+    <graph id="n8_i9g7" name="n8" xy="40,4" size="1,16" group="n13_i9g7" type="rect" lineSize="0" fillColor="#ffcccccc"/>
+    <component id="n9_i9g7" name="btnData" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="55,0" group="n13_i9g7" tooltips="数据">
+      <Button icon="ui://hmcdt1owi9g7q8i"/>
+    </component>
+    <component id="n10_i9g7" name="btnExport" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="85,0" group="n13_i9g7" tooltips="数据导出">
+      <Button icon="ui://hmcdt1owi9g7q8h"/>
+    </component>
+    <graph id="n11_i9g7" name="n11" xy="120,4" size="1,16" group="n13_i9g7" type="rect" lineSize="0" fillColor="#ffcccccc"/>
+    <component id="n12_i9g7" name="btnRefresh" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="135,0" group="n13_i9g7" tooltips="刷新">
+      <Button icon="ui://hmcdt1owi9g7q8j"/>
+    </component>
+    <group id="n13_i9g7" name="n13" xy="5,0" size="152,22"/>
+    <component id="n14_i9g7" name="btnExplorer" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="473,0" group="n16_i9g7" tooltips="浏览目录">
+      <Button icon="ui://hmcdt1owi9g7q8k"/>
+    </component>
+    <component id="n15_i9g7" name="btnProfiler" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="454,11" pivot="0.5,0.5" anchor="true" group="n16_i9g7" rotation="270" tooltips="性能统计">
+      <Button icon="ui://hmcdt1owi9g7q8l"/>
+    </component>
+    <component id="n17_i9g7" name="btnSetting" src="femaq35" fileName="Componets/Buttons/ButtonIcon.xml" xy="412,0" group="n16_i9g7" tooltips="性能统计">
+      <Button icon="ui://hmcdt1owi9g7q8m"/>
+    </component>
+    <group id="n16_i9g7" name="n16" xy="412,0" size="83,22" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

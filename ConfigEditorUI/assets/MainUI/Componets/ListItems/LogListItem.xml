@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,22" extention="Button" bgColorEnabled="true" bgColor="#333333">
+  <displayList>
+    <richtext id="n0_m39r" name="title" xy="0,0" size="900,22" fontSize="14" color="#cccccc" vAlign="middle" ubb="true" autoSize="height" autoClearText="true" text="测试">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+  <Button/>
+  <relation target="n0_m39r" sidePair="height-height"/>
+</component>

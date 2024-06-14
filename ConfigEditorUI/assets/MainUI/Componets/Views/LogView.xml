@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300">
+  <displayList>
+    <graph id="n0_yaad" name="n0" xy="0,0" size="300,300" type="rect" lineSize="0" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_yaad" name="lvLog" xy="0,0" size="300,300" selectionMode="none" overflow="scroll" scrollBarFlags="128" scrollBarRes="ui://hmcdt1owffhcq6v," defaultItem="ui://hmcdt1owm39r1f" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

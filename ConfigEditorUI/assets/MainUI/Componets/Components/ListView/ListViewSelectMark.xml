@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,22">
+  <displayList>
+    <graph id="n0_j5mn" name="SelectMark" xy="0,0" size="100,22" touchable="false" type="rect" lineColor="#ff336699" fillColor="#ff336699">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

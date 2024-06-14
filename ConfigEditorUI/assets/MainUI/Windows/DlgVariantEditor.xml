@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400" extention="Label" initName="frame">
+  <displayList>
+    <component id="n7_f0yv" name="frame" src="f0yv13" fileName="Componets/WindowFrame.xml" xy="0,0" size="300,400"/>
+    <component id="n6_f0yv" name="edContent" src="c77bs" fileName="Componets/EditBox.xml" xy="5,35" size="290,300"/>
+    <component id="n4_f0yv" name="btnPresetType" src="tu7jp" fileName="Componets/NormalButton.xml" xy="39,357" size="80,30" group="n9_dra2"/>
+    <component id="n8_dra2" name="btnOk" src="tu7jp" fileName="Componets/NormalButton.xml" xy="180,357" size="80,30" group="n9_dra2"/>
+    <group id="n9_dra2" name="n9" xy="39,357" size="221,30"/>
+  </displayList>
+</component>

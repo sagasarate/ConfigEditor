@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,22">
+  <displayList>
+    <graph id="n2_nhpr" name="n2" xy="0,10" size="60,1" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n3_nhpr" name="n3" xy="10,0" size="1,22" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n4_nhpr" name="n4" xy="20,0" size="1,22" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n5_nhpr" name="n5" xy="30,0" size="1,22" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n6_nhpr" name="n6" xy="40,0" size="1,22" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n7_nhpr" name="n7" xy="50,0" size="1,22" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n8_nhpr" name="n8" xy="0,0" size="60,22" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_cjeo" name="ghColor" xy="0,0" size="60,22" type="rect" fillColor="#7fff6600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,19" extention="Button" bgColorEnabled="true" bgColor="#333333">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <displayList>
+    <graph id="n0_t23m" name="n0" xy="12,10" pivot="0.5,0.5" anchor="true" size="14,14" touchable="false" type="eclipse" lineSize="3" lineColor="#ffcccccc" fillColor="#00cccccc">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n4_t23m" name="n4" xy="12,10" pivot="0.5,0.5" anchor="true" size="4,4" type="eclipse" lineSize="0" fillColor="#ffcccccc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <text id="n5_cbl2" name="title" xy="24,0" size="48,19" fontSize="12" color="#cccccc" vAlign="middle" autoSize="height" text="选项">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+</component>

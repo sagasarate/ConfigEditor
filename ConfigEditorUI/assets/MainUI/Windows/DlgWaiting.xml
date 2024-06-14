@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" bgColor="#666666">
+  <displayList>
+    <graph id="n2_9ops" name="n2" xy="0,0" size="300,300" type="rect" lineSize="0" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <movieclip id="n1_9ops" name="n1" src="9ops1c" fileName="Images/Waiting.jta" xy="100,118" size="100,63" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+  </displayList>
+</component>

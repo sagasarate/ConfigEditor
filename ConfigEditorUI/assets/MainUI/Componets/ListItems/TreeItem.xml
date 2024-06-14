@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="expanded" pages="0,,1," selected="0"/>
+  <controller name="leaf" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n4_pv4c" name="n4" xy="0,0" size="182,22" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#ff336699">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n5_th2e" name="indent" xy="0,0" size="22,22" visible="false" type="rect"/>
+    <component id="n7_th2e" name="btnExpand" src="th2en" fileName="Componets/Buttons/ExpandButton.xml" xy="22,0" size="24,24">
+      <gearDisplay controller="leaf" pages="0"/>
+      <gearSize controller="leaf" pages="0,1" values="24,24,1,1|0,30,1,1"/>
+      <relation target="n5_th2e" sidePair="left-right"/>
+      <Button controller="expanded" page="1"/>
+    </component>
+    <text id="n3_pv4c" name="title" xy="46,0" size="18,22" fontSize="14" color="#cccccc" vAlign="middle" singleLine="true" autoClearText="true" text="项">
+      <relation target="n7_th2e" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+  <relation target="n3_pv4c" sidePair="rightext-right"/>
+</component>

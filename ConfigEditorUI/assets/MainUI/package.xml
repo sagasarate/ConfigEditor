@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hmcdt1ow">
+  <resources>
+    <component id="fblu1" name="Main.xml" path="/Windows/" exported="true"/>
+    <component id="g17v6" name="MenuItem.xml" path="/Componets/Menus/" exported="true"/>
+    <component id="g17vb" name="PopupMenu.xml" path="/Componets/Menus/" exported="true"/>
+    <component id="g17vc" name="PopupMenuSeperator.xml" path="/Componets/Menus/" exported="true"/>
+    <component id="pv4cd" name="TextView.xml" path="/Componets/Components/"/>
+    <component id="pv4ce" name="VScrollBar_arrow1.xml" path="/Componets/ScrollBars/"/>
+    <component id="pv4cf" name="VScrollBar_arrow2.xml" path="/Componets/ScrollBars/"/>
+    <component id="pv4cg" name="ScrollBar_grip.xml" path="/Componets/ScrollBars/"/>
+    <component id="pv4ch" name="VScrollBar.xml" path="/Componets/ScrollBars/"/>
+    <component id="ffhcq6v" name="VScrollBarThin.xml" path="/Componets/ScrollBars/"/>
+    <component id="ffhcq6y" name="HScrollBarThin.xml" path="/Componets/ScrollBars/"/>
+    <component id="th2em" name="TreeItem.xml" path="/Componets/ListItems/"/>
+    <component id="th2en" name="ExpandButton.xml" path="/Componets/Buttons/"/>
+    <component id="tu7jo" name="PropertyGrid.xml" path="/Componets/Components/PropertyGrid/" exported="true"/>
+    <component id="tu7jp" name="ButtonNormal.xml" path="/Componets/Buttons/"/>
+    <component id="femaq35" name="ButtonIcon.xml" path="/Componets/Buttons/"/>
+    <component id="tu7jq" name="PropertyGridItem.xml" path="/Componets/Components/PropertyGrid/"/>
+    <component id="t23mr" name="CheckMark.xml" path="/Componets/CheckBoxs/"/>
+    <component id="c77bs" name="EditBox.xml" path="/Componets/Components/"/>
+    <component id="c77bw" name="ComboBox_item.xml" path="/Componets/ComboBoxs/"/>
+    <component id="c77bx" name="ComboBox_popup.xml" path="/Componets/ComboBoxs/"/>
+    <component id="c77by" name="ComboBox.xml" path="/Componets/ComboBoxs/" exported="true"/>
+    <component id="f0yvz" name="closeButton.xml" path="/Componets/Buttons/"/>
+    <component id="f0yv10" name="DlgConfirmWithList.xml" path="/Windows/" exported="true"/>
+    <component id="f0yv11" name="DlgMessageBox.xml" path="/Windows/" exported="true"/>
+    <component id="f0yv12" name="ConfirmListItem.xml" path="/Componets/ListItems/"/>
+    <component id="f0yv13" name="WindowFrame.xml" path="/Componets/Components/"/>
+    <component id="uwrb14" name="WindowFrameNoClose.xml" path="/Componets/Components/"/>
+    <component id="a7z11b" name="DlgFileExplorer.xml" path="/Windows/" exported="true"/>
+    <movieclip id="9ops1c" name="Waiting.jta" path="/Images/"/>
+    <component id="9ops1d" name="DlgWaiting.xml" path="/Windows/" exported="true"/>
+    <component id="swck1e" name="DlgInputBox.xml" path="/Windows/" exported="true"/>
+    <component id="m39r1f" name="LogListItem.xml" path="/Componets/ListItems/"/>
+    <component id="e8391o" name="WinSplitter.xml" path="/Componets/Components/"/>
+    <component id="mpst1s" name="TabButton.xml" path="/Componets/Buttons/"/>
+    <component id="mpst1u" name="FlowChart.xml" path="/Componets/Components/FlowChart/" exported="true"/>
+    <component id="mpst1v" name="FlowChartNode.xml" path="/Componets/Components/FlowChart/" exported="true"/>
+    <image id="k3do1w" name="DropPoint.png" path="/Images/" exported="true"/>
+    <component id="cbl21x" name="NormalCheckBox.xml" path="/Componets/CheckBoxs/"/>
+    <component id="mev220" name="Button_NoBorder.xml" path="/Componets/Buttons/"/>
+    <component id="1291q29" name="ExpandButton2.xml" path="/Componets/Buttons/"/>
+    <component id="1291q2a" name="DlgDebugState.xml" path="/Windows/" exported="true"/>
+    <component id="wj68q2b" name="DlgListSelector.xml" path="/Windows/" exported="true"/>
+    <component id="wj68q2f" name="NormalListItem.xml" path="/Componets/ListItems/"/>
+    <component id="wj68q2k" name="DlgVariantEditor.xml" path="/Windows/" exported="true"/>
+    <component id="nvknq2l" name="MainMenuView.xml" path="/Componets/Views/"/>
+    <component id="nvknq2m" name="ToolTips.xml" path="/Componets/Components/" exported="true"/>
+    <image id="tmxiq36" name="Cross.png" path="/Images/ToolsIcon/"/>
+    <component id="yaadq7l" name="ConfigItemView.xml" path="/Componets/Views/"/>
+    <component id="yaadq7m" name="ConfigListView.xml" path="/Componets/Views/"/>
+    <component id="yaadq7n" name="LogView.xml" path="/Componets/Views/"/>
+    <component id="yaadq7o" name="PropertyView.xml" path="/Componets/Views/"/>
+    <component id="wujyq7p" name="ListView.xml" path="/Componets/Components/ListView/" exported="true"/>
+    <component id="wujyq7q" name="ListViewHeaderItem.xml" path="/Componets/Components/ListView/"/>
+    <component id="wujyq7r" name="ListViewItem.xml" path="/Componets/Components/ListView/"/>
+    <component id="wujyq7w" name="ListViewSelectMark.xml" path="/Componets/Components/ListView/"/>
+    <component id="x3ogq7x" name="CheckBox.xml" path="/Componets/CheckBoxs/" exported="true"/>
+    <component id="i9g7q7y" name="DlgSetting.xml" path="/Windows/" exported="true"/>
+    <component id="i9g7q7z" name="ColorInputer.xml" path="/Componets/Inputer/" exported="true"/>
+    <image id="i9g7q81" name="IconTextField.png" path="/Images/ToolsIcon/" exported="true"/>
+    <image id="i9g7q83" name="Aim.png" path="/Images/ToolsIcon/" exported="true"/>
+    <image id="i9g7q84" name="Delete.png" path="/Images/ToolsIcon/" exported="true"/>
+    <image id="i9g7q86" name="IconFont.png" path="/Images/ToolsIcon/" exported="true"/>
+    <image id="i9g7q8a" name="IconComponent.png" path="/Images/" exported="true"/>
+    <component id="i9g7q8b" name="TextInputer.xml" path="/Componets/Inputer/" exported="true"/>
+    <image id="i9g7q8c" name="IconEdit.png" path="/Images/ToolsIcon/" exported="true"/>
+    <component id="i9g7q8d" name="ValueInputer.xml" path="/Componets/Inputer/" exported="true"/>
+    <component id="i9g7q8e" name="ValueInputerLight.xml" path="/Componets/Inputer/" exported="true"/>
+    <component id="i9g7q8f" name="ValueInputerNoBorder.xml" path="/Componets/Inputer/" exported="true"/>
+    <image id="i9g7q8g" name="Save.png" path="/Images/ToolsIcon/"/>
+    <image id="i9g7q8h" name="Download.png" path="/Images/ToolsIcon/"/>
+    <image id="i9g7q8i" name="Folder2.png" path="/Images/ToolsIcon/"/>
+    <image id="i9g7q8j" name="Refresh.png" path="/Images/ToolsIcon/"/>
+    <image id="i9g7q8k" name="Search.png" path="/Images/ToolsIcon/"/>
+    <image id="i9g7q8l" name="AlignLeft1.png" path="/Images/ToolsIcon/"/>
+    <image id="i9g7q8m" name="Gear.png" path="/Images/ToolsIcon/"/>
+    <component id="i9g7q8n" name="ColorSelectorPanel.xml" path="/Componets/PopupPanel/" exported="true"/>
+    <image id="i9g7q8o" name="Attention.png" path="/Images/"/>
+    <component id="i9g7q8p" name="ColorListItem.xml" path="/Componets/PopupPanel/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

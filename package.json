@@ -1,0 +1,19 @@
+{
+  "name": "ConfigEditor",
+  "version": "1.0.0",
+  "description": "Config Editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sagasarate",
+  "license": "MIT",
+  "dependencies": {
+    "@types/sprintf-js": "^1.1.4",
+    "exceljs": "^4.3.0",
+    "jszip": "^3.10.1",
+    "long": "^5.2.3",
+    "pako": "^2.1.0",
+    "sprintf-js": "^1.1.3"
+  } 
+}
